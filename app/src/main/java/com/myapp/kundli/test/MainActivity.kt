@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         dataBinding.layoutInclude.btnExit.setOnClickListener {
-
+        finish()
         }
     }
 
